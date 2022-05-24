@@ -1,4 +1,4 @@
 ## Czytaj Issues
 
-https://github.com/DevOps-Together/api-server/issues
+https://github.com/DevOps-Together/devopsiarz-api-server/issues
 
