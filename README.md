@@ -13,6 +13,7 @@ Do takiego serwera można uderzać narzędziami typu `curl` czy `httpie`
 Dla przykładu, załóżmy, że serwer działa na hoście `localhost`
 
 `http GET localhost/wiadomosc`
+
 `http POST localhost/wiadomosc "tresc=ala_ma_kota"` - w tym przypadku treść wiadomości znajduje się w zmiennej `tresc`
 
 ### Minimalna funkcjonalność:
