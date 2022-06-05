@@ -16,9 +16,11 @@ Dla przykładu, załóżmy, że serwer działa na hoście `localhost` i chcemy u
 
 `http GET localhost/wiadomosc` - dostaniemy listę zapisanych wiadomości
 
-`http POST localhost/wiadomosc "tresc=ala_ma_kota"` - w tym przypadku treść wiadomości znajduje się w zmiennej `tresc`
+`http POST localhost/wiadomosc "tresc=ala_ma_kota"` - zapiszemy wiadomość `ala_ma_kota`, w tym przypadku treść wiadomości znajduje się w zmiennej `tresc`, a metodą użytą do zapisu jest metoda `POST`
 
-To w jaki sposób serwer ma zapamiętywać wiadomości zostawiam Tobie. Jeśli przykładowo, chcesz nauczyć się trochę PostgreSQLa - musisz oprogramować używanie PostgreSQLa, czyli zapisywanie w nim danych i pobieranie. Jak nie wiesz w ogóle jak odpalić PostgreSQLa, to możesz użyć Dockera. Nie znasz Dockera? To zatem idealna okazja, aby poznać. W razie czego, pamiętaj: https://github.com/DevOps-Together/devopsiarz-api-server/issues
+Trochę o metodach HTTP: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+
+To w jaki sposób serwer ma zapisywać wiadomości, zostawiam Tobie. Jeśli przykładowo, chcesz nauczyć się trochę PostgreSQLa - musisz oprogramować używanie PostgreSQLa, czyli zapisywanie w nim danych i pobieranie. Jak nie wiesz w ogóle jak odpalić PostgreSQLa, to możesz użyć Dockera. Nie znasz Dockera? To zatem idealna okazja, aby poznać. :) W razie czego, pamiętaj: https://github.com/DevOps-Together/devopsiarz-api-server/issues
 
 Bazą danych może być też pamięć RAM, czyli "trzymanie" stanu przez program (do jego wyłączenia lub padu). Jednak jeśli chcesz uczyć się trochę baz danych, to przy okazji tego projektu jest szansa w nie wejść.
 
