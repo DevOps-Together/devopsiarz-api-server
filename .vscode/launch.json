@@ -1,0 +1,45 @@
+{
+    // Użyj funkcji IntelliSense, aby uzyskać informacje o możliwych atrybutach.
+    // Najedź kursorem, aby wyświetlić opisy istniejących atrybutów.
+    // Aby uzyskać więcej informacji, odwiedź stronę: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'devopsiarz-api-server'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=devopsiarz-api-server",
+                    "--package=devopsiarz-api-server"
+                ],
+                "filter": {
+                    "name": "devopsiarz-api-server",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'devopsiarz-api-server'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=devopsiarz-api-server",
+                    "--package=devopsiarz-api-server"
+                ],
+                "filter": {
+                    "name": "devopsiarz-api-server",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

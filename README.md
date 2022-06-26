@@ -23,7 +23,8 @@ Poniżej widzisz mój pseudo issue tracker, jako że nie chcę zaspamić emaili 
 ### Działająca:
 -
 ## Lista życzeń
-- 
+- Hashowanie haseł
+
 ## Bugi:
 - 
 
