@@ -1,6 +1,6 @@
 {
     "address":"0.0.0.0",
-    "port": 8080,
+    "port": 65535,
     "endpoints": [
         {
             "path": "/wiadomosc",
