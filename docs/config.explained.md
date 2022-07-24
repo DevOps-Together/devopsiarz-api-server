@@ -9,8 +9,8 @@
         {
             // Path of endpoint. Paths cannot repeat.
             "path": "/wiadomosc",
-            // Endpoint variant. Available variants are: FIFO, FILO, CONST, REPEAT_LAST.
-            "variant": "FIFO",
+            // Endpoint variant. Available variants are: Fifo, Filo, Constant, RepeatLast.
+            "variant": "Fifo",
             // Enable or disable http basic authentication.
             "authentication_enabled": false,
             // Username. Must be set if authentication_enabled is set to true.

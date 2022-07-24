@@ -1,15 +1,18 @@
-#[macro_use]
-extern crate serde_json;
-#[macro_use]
-extern crate serde;
-mod config_parser;
+use std::env;
+mod config;
+use config::{Configuration};
+mod queuing_strategy;
+
+const DEFAULT_PATH: &str = "config.json";
 
 fn main() {
-    let path = "config.json";
-    config_parser::parse_config(path);
-    /*
-    Load configuration
-    For each endpoint create a queue
+    let config: Configuration = parse_config();
 
-    */
+    
+}
+
+fn parse_config() -> Configuration {
+    let args: Vec<String> = env::args().collect();
+    let path: &str = args.last().map_or(DEFAULT_PATH, |path| path.as_str());
+    return config::parse_config(path);
 }

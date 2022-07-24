@@ -4,7 +4,7 @@
     "endpoints": [
         {
             "path": "/wiadomosc",
-            "variant": "FIFO",
+            "variant": "Fifo",
             "authentication_enabled": false
         }
     ]
