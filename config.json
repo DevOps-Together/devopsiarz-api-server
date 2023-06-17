@@ -1,0 +1,11 @@
+{
+    "address":"0.0.0.0",
+    "port": 65535,
+    "endpoints": [
+        {
+            "path": "/wiadomosc",
+            "variant": "Fifo",
+            "authentication_enabled": false
+        }
+    ]
+}
